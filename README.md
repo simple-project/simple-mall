@@ -1,6 +1,6 @@
 #simple-mall
 
-**1. **技术选型
+**1.** 技术选型
 
 Spring
 SpringMVC
