@@ -10,23 +10,11 @@
     <version>1.0-SNAPSHOT</version>
     <name>${project.artifactId}</name>
 
-    <modules>
-        <module>mall-common-web</module>
-        <module>mall-common-core</module>
-        <module>mall-facade-user</module>
-        <module>mall-service-user</module>
-        <module>mall-web-oss</module>
-        <module>mall-web-shop</module>
-        <module>mall-app-shop</module>
-        <module>mall-common-utils</module>
-    </modules>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencyManagement>
-
 
     </dependencyManagement>
 
@@ -68,11 +56,9 @@
                 </configuration>
             </plugin>
         </plugins>
-
         <filters> <!-- 指定使用的 filter -->
             <filter>../config/procfg-${env}.properties</filter>
         </filters>
-
         <resources>
             <resource>
                 <!-- 配置需要被替换的资源文件路径 -->
@@ -82,5 +68,16 @@
             </resource>
         </resources>
     </build>
+
+    <modules>
+        <module>mall-common-web</module>
+        <module>mall-common-core</module>
+        <module>mall-facade-user</module>
+        <module>mall-service-user</module>
+        <module>mall-web-oss</module>
+        <module>mall-web-shop</module>
+        <module>mall-app-shop</module>
+        <module>mall-common-utils</module>
+    </modules>
 
 </project>
