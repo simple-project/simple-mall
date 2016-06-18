@@ -27,7 +27,7 @@ Maven、Git
 
 **4.1)**分布式文件系统
 
-IP: 192.168.1.200 - 192.168.1.203
+IP: 192.168.1.200 - 192.168.1.202
 
     DEVICE=eth0
     BOOTPROT=static
@@ -41,7 +41,7 @@ IP: 192.168.1.200 - 192.168.1.203
 
 **4.2)**redis + zookeeper + RabbitMQ集群
 
-IP: 192.168.1.210 - 192.168.1.213
+IP: 192.168.1.210 - 192.168.1.212
 
 
 **4.3)**应用服务器
@@ -52,13 +52,33 @@ IP: 192.168.1.220
 
 IP: 192.168.1.230
 
-**4.5)**nexus服务器
+**4.5)**数据库服务器
 
 IP: 192.168.1.240
 
+    DEVICE=eth0
+    BOOTPROT=static
+    BROADCAST=192.168.1.255
+    HWADDR=00:0C:29:AB:21:B4
+    IPADDR=192.168.1.240
+    NETMASK=255.255.255.0
+    GATEWAY=192.168.1.1
+    ONBOOT=yes
+    TYPE=Ethernet
 
+**4.6)**nexus服务器
 
+IP: 192.168.1.180
 
+    DEVICE=eth0
+    BOOTPROT=static
+    BROADCAST=192.168.1.255
+    HWADDR=00:0C:29:8B:B5:FC
+    IPADDR=192.168.1.180
+    NETMASK=255.255.255.0
+    GATEWAY=192.168.1.1
+    ONBOOT=yes
+    TYPE=Ethernet
 
 
 
