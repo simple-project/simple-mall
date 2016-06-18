@@ -2,9 +2,9 @@
 
 **1.** 技术选型
 
-基础服务：Spring、SpringMVC、MyBatis、Redis、FastDFS、RabbitMQ
+基础服务：Spring、SpringMVC、MyBatis、Redis、FastDFS、RabbitMQ、SLF4J + Logback
 
-图片处理服务：GraphicsMagick + Nginx + Lua
+图片处理服务：GraphicsMagick + OpenResty + Lua
 
 
 **2.** 项目构建和版本控制工具
@@ -29,15 +29,15 @@ Maven、Git
 
 IP: 192.168.1.200 - 192.168.1.203
 
-DEVICE=eth0
-BOOTPROT=static
-BROADCAST=192.168.1.255
-HWADDR=00:0C:29:BB:6C:1C
-IPADDR=192.168.1.200
-NETMASK=255.255.255.0
-GATEWAY=192.168.1.1
-ONBOOT=yes
-TYPE=Ethernet
+    DEVICE=eth0
+    BOOTPROT=static
+    BROADCAST=192.168.1.255
+    HWADDR=00:0C:29:BB:6C:1C
+    IPADDR=192.168.1.200
+    NETMASK=255.255.255.0
+    GATEWAY=192.168.1.1
+    ONBOOT=yes
+    TYPE=Ethernet
 
 **4.2)**redis + zookeeper + RabbitMQ集群
 
